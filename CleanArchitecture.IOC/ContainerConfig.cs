@@ -11,6 +11,7 @@ namespace CleanArchitecture.IOC
         {
             setResolver(new NinjectDependencyResolver(new StandardKernel(
                 new CommonModule()
+                // Additional modules...
             )));
         }
     }

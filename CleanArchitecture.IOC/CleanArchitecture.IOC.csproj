@@ -75,7 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommonModule.cs" />
-    <Compile Include="ApplicationKernel.cs" />
     <Compile Include="ContainerConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
