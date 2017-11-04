@@ -1,5 +1,5 @@
 class HomePage
   include PageObject
-
-  label(:name, id: 'name')
+  page_url(FigNewton.base_url)
+  h2(:name, id: 'name-header')
 end
