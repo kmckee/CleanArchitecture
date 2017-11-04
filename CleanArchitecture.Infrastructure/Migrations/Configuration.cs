@@ -13,7 +13,8 @@ namespace CleanArchitecture.Infrastructure.Migrations
 
         protected override void Seed(Context context)
         {
-            new Context().Widgets.AddOrUpdate(new Widget() { WidgetId = 1, Name = "Kyle" });
+            context.Widgets.AddOrUpdate(new Widget() { WidgetId = 1, Name = "Kyle" });
+            context.SaveChanges();
         }
     }
 }

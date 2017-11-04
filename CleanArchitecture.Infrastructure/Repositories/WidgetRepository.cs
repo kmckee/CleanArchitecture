@@ -10,9 +10,16 @@ namespace CleanArchitecture.Infrastructure.Repositories
 {
     public class WidgetRepository : IWidgetRepository
     {
+        private readonly Context _context;
+
+        public WidgetRepository(Context context)
+        {
+            _context = context;
+        }
+
         public Widget GetById(int id)
         {
-            throw new NotImplementedException();
+            return _context.Widgets.Single(w => w.WidgetId == id);
         }
 
         public void Save(Widget widget)
