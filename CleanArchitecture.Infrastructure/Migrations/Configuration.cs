@@ -1,3 +1,5 @@
+using CleanArchitecture.Core.Models;
+
 namespace CleanArchitecture.Infrastructure.Migrations
 {
     using System.Data.Entity.Migrations;
@@ -11,10 +13,7 @@ namespace CleanArchitecture.Infrastructure.Migrations
 
         protected override void Seed(Context context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data.
+            new Context().Widgets.AddOrUpdate(new Widget() { WidgetId = 1, Name = "Kyle" });
         }
     }
 }

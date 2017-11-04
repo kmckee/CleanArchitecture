@@ -10,7 +10,5 @@ namespace CleanArchitecture.Core.Models
     {
         public int WidgetId { get; set; }
         public string Name { get; set; }
-        public List<Thing> OneToManyWithThings { get; set; }
-        public Widget OneToOneWithWidget { get; set; }
     }
 }

@@ -13,7 +13,7 @@ namespace CleanArchitecture.Infrastructure.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201711040518321_Initial"; }
+            get { return "201711040650244_Initial"; }
         }
         
         string IMigrationMetadata.Source

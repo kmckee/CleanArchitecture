@@ -16,8 +16,5 @@ namespace CleanArchitecture.Infrastructure
         { }
 
         public virtual DbSet<Widget> Widgets { get; set; }
-        public virtual DbSet<Thing> Things { get; set; }
-        public virtual DbSet<Contraption> Contraptions { get; set; }
-        public virtual DbSet<Gizmo> Gizmos { get; set; }
     }
 }
