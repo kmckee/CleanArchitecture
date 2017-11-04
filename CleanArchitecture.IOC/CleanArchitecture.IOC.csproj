@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommonModule.cs" />
-    <Compile Include="Container.cs" />
+    <Compile Include="ApplicationKernel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -11,13 +11,13 @@ namespace CleanArchitecture.UI.Controllers
     {
         public IWidgetRepository Repo { get; }
 
-        public HomeController(/* IWidgetRepository repo */)
+        public HomeController(IWidgetRepository repo)
         {
-            //Repo = repo;
+            Repo = repo;
         }
         public ActionResult Index()
         {
-            //var x = Repo.GetById(1);
+            var x = Repo.GetById(1);
             return View();
         }
     }

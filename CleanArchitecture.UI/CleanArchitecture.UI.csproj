@@ -217,6 +217,10 @@
       <Project>{9083AB7F-9AD4-4181-BCA3-B92F22C8860E}</Project>
       <Name>CleanArchitecture.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CleanArchitecture.IOC\CleanArchitecture.IOC.csproj">
+      <Project>{B6B93E48-749A-4CCB-8ABE-15826C5F3F9B}</Project>
+      <Name>CleanArchitecture.IOC</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
