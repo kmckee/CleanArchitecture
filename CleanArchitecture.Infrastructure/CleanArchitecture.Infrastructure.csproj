@@ -75,7 +75,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>REM This is an awful hack to avoid having to reference EF in the UI project. :(
-COPY $(TargetDir)EntityFramework.SqlServer.dll $(SolutionDir)CleanArchitecture.UI\bin\EntityFramework.SqlServer.dll /y</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>
